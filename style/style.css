@@ -13,12 +13,12 @@ body {
 }
 
 header {
-  font-family: 
   padding-top: 20px;
   padding-bottom: 20px;
   background: #FFFFFF;
   text-align: right;
   padding-right: 35px;
+  position: fixed;
 }
 
 a {
