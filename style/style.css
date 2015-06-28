@@ -23,6 +23,7 @@ header {
 }
 
 a {
+  color: #0A1870;
   text-decoration: none;
 }
 
@@ -31,7 +32,7 @@ a:hover {
 }
 
 a:visited {
-  color:blue;
+  color: #0A1870;
 }
 
 .img {
@@ -66,7 +67,7 @@ p {
   padding-bottom: 10px;
   border-style: solid 2px;
   border-radius: 25px;
-  text-align: right;
+  text-align: left;
   color: #000000;
 }
 
@@ -87,5 +88,5 @@ h3 {
     position: absolute;
     top:20%;
     left:40%;
-    margin:-100px 0 0 -150px;
+    margin:-100px 0 0 -210px;
 }
