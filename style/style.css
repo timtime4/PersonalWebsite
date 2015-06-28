@@ -8,9 +8,12 @@
 
 body {
   background: #95C7FF;
+  font-family: "Open sans", sans-serif;
+  text-align: center;
 }
 
 header {
+  font-family: 
   padding-top: 20px;
   padding-bottom: 20px;
   background: #FFFFFF;
@@ -40,27 +43,21 @@ a:visited {
 .navigation { margin-bottom: -100px; }
 
 h1 {
-  font-family: 'RailwayRegular';
-  text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
   color: rgba(199, 39, 39, 1);
 }
   
 h2 {
-  font-family: 'RailwayRegular';
   font-weight: bold;
-  text-align: center;
   padding-bottom: 10px;
   color: rgba(199, 39, 39, 1);
 }
 
 p {
-  font-family: 'RailwayRegular';
   padding-left: 75px;
   padding-right: 75px;
   font-weight: normal;
-  text-align: center;
   padding-bottom: 10px;
   color: rgba(199, 39, 39, 1);
   border-style: solid 2px;
@@ -68,10 +65,8 @@ p {
 }
 
 h3 {
-  font-family: "RailwayRegular";
   color: rgba(199, 39, 39, 1);
   font-weight: bold;
-  text-align: center;
   padding-bottom: 5px;
 }
     
