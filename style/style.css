@@ -4,7 +4,26 @@
   width: 700px; 
   margin: 0 auto; 
   background: white; 
-  box-shadow: 0px 0px 2px;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #FFFFFF;
+  text-align: right;
+  padding-right: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
+a:visited {
+  color:blue;
 }
 
 .shadow {
@@ -15,18 +34,17 @@
 
 .ie6 .wrapper { width: 960px; }
 .navigation { margin-bottom: -100px; }
-    
-body, h1 {
+
+h1 {
   font-family: 'RailwayRegular';
-  font-weight: normal;
-  font-style: normal;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
   color: rgba(199, 39, 39, 1);
   background: #95C7FF;
 }
-  h2 {
+  
+h2 {
   font-family: 'RailwayRegular';
   font-weight: bold;
   text-align: center;
@@ -34,7 +52,7 @@ body, h1 {
   color: rgba(199, 39, 39, 1);
 }
 
-  p {
+p {
   font-family: 'RailwayRegular';
   padding-left: 75px;
   padding-right: 75px;
@@ -46,7 +64,7 @@ body, h1 {
   border-radius: 25px;
 }
 
-  h3 {
+h3 {
   font-family: "RailwayRegular";
   color: rgba(199, 39, 39, 1);
   font-weight: bold;
@@ -59,6 +77,7 @@ body, h1 {
     position: relative;
    
 }
+
 .rotating-item {
     display: none;
     position: absolute;
